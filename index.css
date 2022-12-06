@@ -58,6 +58,7 @@ body
     border: none;
     margin-bottom: auto;
     text-align: center;
+    cursor:pointer;
 }
 .pingv {
     width: 50%;
@@ -80,6 +81,7 @@ body
     font-size: 30px;
     border-style: groove;
     border-style: outset;
+    cursor:pointer;
 }
 .beta {
     text-align: center;
