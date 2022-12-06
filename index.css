@@ -3,12 +3,45 @@
     text-align: center;
     color: black;
     font-family: Franklin Gothic Medium;
+    border:10px solid rgb(0, 72, 105);
+    border-style: inset;
+    border-radius: 20%;
+    background-color: rgb(43, 142, 255);
 }
 body {
     background-color: rgb(132, 161, 255);
+    font-family: Franklin Gothic Medium;
 }
  .szöveg1 { 
     font-size: 20px;
     font-family: Franklin Gothic Medium;
-    
+}
+.kep1 {
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    margin-bottom: auto;
+    text-align: center;
+}
+.pingv {
+    width: 50%;
+    height: 50%;
+    border: 10px solid rgb(0, 72, 105);
+    border-radius: 20%;
+    border-style: ridge;
+    border-style: inset;
+}
+.gombcontainer {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.viccgomb {
+    font-family: Impact;
+    border: 20px solid rgb(0, 72, 105);
+    background-color: rgb(125, 194, 255);
+    border-radius: 30%;
+    font-size: 30px;
+    border-style: groove;
+    border-style: outset;
 }
