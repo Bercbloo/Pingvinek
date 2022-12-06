@@ -31,6 +31,7 @@ body
         background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
         background-size: 400% 400%;
         animation: gradient 15s ease infinite;
+        font-family:Franklin Gothic Medium;
     }
     
     @keyframes gradient {
@@ -43,7 +44,7 @@ body
         100% {
             background-position: 0% 50%;
         }
-        font-family: Franklin Gothic Medium;
+       
     }
     
 
@@ -79,4 +80,7 @@ body
     font-size: 30px;
     border-style: groove;
     border-style: outset;
+}
+.beta {
+    text-align: center;
 }
