@@ -1,0 +1,68 @@
+body
+    {
+        background: linear-gradient(-45deg, #79daf8, #00f014, #ffeb33, #ff00dd);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        font-family:Franklin Gothic Medium;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+       
+
+    }
+
+ .cimcontainer {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+ }   
+ .cim {
+    border:20px solid #00f014;
+    border-radius: 20%;
+    font-size: 70px;
+    background-color: #00f014;
+    margin-top: 10%;
+ }
+
+.Pkep1container {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+.Pkep1 {
+    height: 40%;
+    width: 40%;
+    border: 10px solid  #00f014;
+    border-radius: 20%;
+    border-style: inset;
+    
+}
+.viccek {
+    font-family: Franklin Gothic Medium;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+}
+.visszacontainer {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.vissza {
+    background-color: rgb(15, 0, 148);
+    border: 2px solid rgb(15, 0, 148);
+    color: beige;
+    border-radius: 20%;
+}
+.beta {
+    text-align: center;
+}
