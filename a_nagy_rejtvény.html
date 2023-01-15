@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <title>A nagy rejtvény</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1 class="cim">
+        A nagy rejtvény
+    </h1>
+<br>
+    <p1>
+    Kedves barát! (Geri vagy Domi vagy épp aki nézi) Egy egyszerű kis 
+    rejtvényt hoztam el most itt neked. Nem más a lényeg, mint megfejteni
+    a jelszót, mely a jutalmadat rejti.
+
+</p1>
+<br><br>
+<p2>
+    Fejezd be a szöveget!
+</p2>
+<br><br>
+<hr>
+<p3>
+    Indítom a ladát tesa gyere, gyere már! Este megnézzük, hogy
+    a te csajod mit csinál. Hátul meg bömböltetem a rajos minimált,
+    de azért bontok egy drinket ettől leszek a király HÁ! 
+    Itt van az ____JELSZÓ____lecsúszik a GATYA!!
+   
+</p3>
+<br><br>
+<p4  id="checker" style="display: none;"></p4>
+<input style="width: 11%;" type="password" placeholder="ide írd be a megoldást!" id="atya" maxlength="10">
+<input type="button" id="btn1" value="MEGOLDÁS!">
+<div id="fback" style="display: none;">
+<h1 >SZÉP VOLT TESA</h1>
+<iframe width="420" height="315"
+src="https://www.youtube.com/watch?v=TyfVdXtkDUU">
+</iframe>
+</div>
+
+<script>
+    const atya = document.getElementById("atya");
+    const btn1 = document.getElementById("btn1");
+    const fback = document.getElementById("fback");
+    const checker = document.getElementById("checker");
+
+    function check() {
+
+        checker.innerHTML = atya.value
+
+        if (checker.innerHTML == "atya" || checker.innerHTML =="Atya") { fback.style.display=''
+            
+        } else {
+        fback.style.display='none';
+        alert("HELYTELEN CIMBI, GONDOLKOZZ MÁR!!!");
+            
+        }
+    }
+    btn1.addEventListener('click',check)
+
+</script>
+
+
+
+</body>
+
