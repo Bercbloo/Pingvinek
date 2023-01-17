@@ -2,25 +2,27 @@
 <head>
     <title>A nagy rejtvény</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rejtveny.css">
 </head>
 <body>
+    <center>
     <h1 class="cim">
-        A nagy rejtvény
+       <ins>A nagy rejtvény</ins> 
     </h1>
 <br>
-    <p1>
+    <p1 class="szöveg">
     Kedves barát! (Geri vagy Domi vagy épp aki nézi) Egy egyszerű kis 
     rejtvényt hoztam el most itt neked. Nem más a lényeg, mint megfejteni
     a jelszót, mely a jutalmadat rejti.
 
 </p1>
 <br><br>
-<p2>
+<p2 class="szöveg">
     Fejezd be a szöveget!
 </p2>
 <br><br>
 <hr>
-<p3>
+<p3 class="szöveg">
     Indítom a ladát tesa gyere, gyere már! Este megnézzük, hogy
     a te csajod mit csinál. Hátul meg bömböltetem a rajos minimált,
     de azért bontok egy drinket ettől leszek a király HÁ! 
@@ -29,14 +31,14 @@
 </p3>
 <br><br>
 <p4  id="checker" style="display: none;"></p4>
-<input style="width: 11%;" type="password" placeholder="ide írd be a megoldást!" id="atya" maxlength="10">
-<input type="button" id="btn1" value="MEGOLDÁS!">
+<input class="jelszo" style="width: 11%;" type="password" placeholder="ide írd be a megoldást!" id="atya" maxlength="10">
+<input type="button" id="btn1" class="btn1" value="MEGOLDÁS!">
 <div id="fback" style="display: none;">
-<h1 >SZÉP VOLT TESA</h1>
-<iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=aOI5X-E5Gog">
+<h1 class="szöveg" >GratHulálok, hogy bh@$zom azt a gitHár nyakHadat ááááááááááááááááá</h1>
+<img id="img" src="C:\Users\Bakán Bertalan\OneDrive - Semmelweis Egyetem\Asztal\WEBLAP forráskódok\belso\worksapce\DOMI\pics\F6ZGca.png" height="400" width="400">
 </iframe>
 </div>
+</center>
 
 <script>
     const atya = document.getElementById("atya");
@@ -48,7 +50,7 @@ src="https://www.youtube.com/watch?v=aOI5X-E5Gog">
 
         checker.innerHTML = atya.value
 
-        if (checker.innerHTML == "atya" || checker.innerHTML =="Atya") { fback.style.display=''
+        if (checker.innerHTML == "atya" || checker.innerHTML =="Atya" || checker.innerHTML == "ATYA") { fback.style.display=''
             
         } else {
         fback.style.display='none';
