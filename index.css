@@ -86,3 +86,10 @@ body
 .beta {
     text-align: center;
 }
+
+.rejtveny {
+    font-size: large;
+    color: red ;
+    font-weight: bold;
+    
+}
